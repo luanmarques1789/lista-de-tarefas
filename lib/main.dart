@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       if (campoTexto.text.trim().isNotEmpty) {
         listaTarefas.add(campoTexto.text);
-        print("Adicionado tarefa " + listaTarefas.last);
+        print("Adicionado tarefa ${listaTarefas.last}");
         print("Total de tarefas atualmente: ${listaTarefas.length}");
       }
     });
